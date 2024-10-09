@@ -12,7 +12,7 @@ app.use(express.json());
 
 const startServer = async () => {
     const connection = await mysql.createConnection({
-        host: 'https://2339-212-5-158-6.ngrok-free.app',
+        host: 'localhost',
         user: 'root',
         password: 'Vbanchevf08!',
         database: 'people'
